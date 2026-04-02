@@ -14,6 +14,20 @@ function Blog() {
             <br />
             <Card variant="outlined">
                 <CardContent>
+                    <Typography variant="h6">A bit of fun and a lot of legalese: Creative Commons, RPGs and GNUv3</Typography>
+                    <Typography gutterBottom sx={{color:"secondary.dark"}}>Hyunjin Oh</Typography>
+                    <Typography>What happens when you wish to develop software that bridges CC sources and original material? What are some of the risks? How should you configure your repository to be compliant? This article attempts to look at different strategies to solve these questions.</Typography>
+                    <ReactTinyLink
+                        cardSize="small"
+                        showGraphic={true}
+                        maxLine={2}
+                        minLine={1}
+                        url="https://medium.com/bajainnotech/a-bit-of-fun-and-a-lot-of-legalese-creative-commons-rpgs-and-gnuv3-3e32628fa454"
+                    />
+                </CardContent>
+            </Card>
+            <Card variant="outlined">
+                <CardContent>
                     <Typography variant="h6">Error boundaries in React (Part 2)</Typography>
                     <Typography gutterBottom sx={{color:"secondary.dark"}}>Hyunjin Oh</Typography>
                     <Typography>A continuation of the first article on error boundaries, it describes strategic error boundary placement and some advanced patterns.</Typography>
