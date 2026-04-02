@@ -1,9 +1,10 @@
 import { ReactTinyLink } from "@artshell/react-tiny-link";
-import { Card, CardContent, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 function Mysteries() {
     return (
         <>
+            <br />
             <Typography variant="h3" sx={{ color: "primary.dark"}}>
                 Bit Mysteries
             </Typography>
@@ -12,14 +13,12 @@ function Mysteries() {
             <br />
             <ReactTinyLink
                 cardSize="small"
-                showGraphic={true}
+                showGraphic={false}
                 maxLine={2}
                 minLine={1}
                 url="https://bajainnotech.github.io/bit-mysteries/"
             />
             <br />
-            {/* <Typography variant="h6">Fallen Kingom</Typography>
-            <Typography variant="h6">Hunt for the Treasure of Aural Hall</Typography> */}
         </>
     );
 }
