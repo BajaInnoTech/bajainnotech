@@ -16,6 +16,7 @@ import Mysteries from './sections/mysteries';
 import Blog from './sections/blog';
 import Contact from './sections/contact';
 import theme from './assets/style/theme';
+import bajaTheme from './assets/style/bajaTheme';
 import favico from './assets/images/favico.svg'
 import Favicon from 'react-favicon';
 
@@ -23,7 +24,7 @@ function App() {
   const [target, setTarget] = useState("main");
 
   return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={bajaTheme}>
             <div className="App">
                 <Favicon url={favico} />
                 <AppBar

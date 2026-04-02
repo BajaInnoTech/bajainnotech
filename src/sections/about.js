@@ -6,6 +6,7 @@ import {
     Typography,
     IconButton,
 } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 import {
     LinkedIn as LinkedInIcon,
 } from '@mui/icons-material';
@@ -13,8 +14,9 @@ import eduardo from '../assets/images/eduardo.jpeg';
 import hyunjin from '../assets/images/hyunjin.jpeg';
 import victor from '../assets/images/victor.jpeg';
 
-
 function About() {
+    const theme = useTheme();
+
     return (
         <>
             <br />
@@ -36,7 +38,7 @@ function About() {
                     <Card
                         variant="outlined"
                         sx={{
-                            border: '1px solid black',
+                            border: `1px solid ${theme.palette.primary.main}`,
                             borderRadius: 2,
                             margin: 1,
                             flexGrow: 1,
@@ -69,7 +71,7 @@ function About() {
                     <Card
                         variant="outlined"
                         sx={{
-                            border: '1px solid black',
+                            border: `1px solid ${theme.palette.primary.main}`,
                             borderRadius: 2,
                             margin: 1,
                             flexGrow: 1,
@@ -102,7 +104,7 @@ function About() {
                     <Card
                         variant="outlined"
                         sx={{
-                            border: '1px solid black',
+                            border: `1px solid ${theme.palette.primary.main}`,
                             borderRadius: 2,
                             margin: 1,
                             flexGrow: 1,
