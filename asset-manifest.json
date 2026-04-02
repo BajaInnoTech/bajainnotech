@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/bajainnotech/static/js/main.802b48df.js",
+    "main.js": "/bajainnotech/static/js/main.fc376662.js",
     "static/media/bitLogoDetailed.svg": "/bajainnotech/static/media/bitLogoDetailed.d550d17450b6885a6ae06ba4fd156138.svg",
     "static/media/vpiconv2.svg": "/bajainnotech/static/media/vpiconv2.396a6c276d1cc4a12d9fad8c00d25db0.svg",
     "static/media/favico.svg": "/bajainnotech/static/media/favico.00aef987d548447af080780ae66f80b8.svg",
     "index.html": "/bajainnotech/index.html",
-    "main.802b48df.js.map": "/bajainnotech/static/js/main.802b48df.js.map"
+    "main.fc376662.js.map": "/bajainnotech/static/js/main.fc376662.js.map"
   },
   "entrypoints": [
-    "static/js/main.802b48df.js"
+    "static/js/main.fc376662.js"
   ]
 }
