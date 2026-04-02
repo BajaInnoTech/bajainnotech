@@ -4,6 +4,7 @@ import { Card, CardContent, Typography } from '@mui/material';
 function Mysteries() {
     return (
         <>
+            <br />
             <Typography variant="h3" sx={{ color: "primary.dark"}}>
                 Bit Mysteries
             </Typography>

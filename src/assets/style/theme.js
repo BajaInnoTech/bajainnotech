@@ -15,7 +15,13 @@ const theme = createTheme({
             dark: '#727183',
             contrastText: '#edd1b0'
         },
-    }
+    },
+    typography: {
+        fontFamily: '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+    },
+    components: {
+
+    },
 });
 
 export default theme;
