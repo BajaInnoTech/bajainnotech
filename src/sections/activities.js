@@ -6,7 +6,7 @@ function Mysteries() {
         <Container>
             <Box sx={{margin:4}}>
                 <Typography variant="h3" sx={{ color: "primary.dark"}}>
-                    BIT Mysteries
+                    BIT Activities
                 </Typography>
             </Box>
             <Typography>At BajaInnoTech we strive to foster our creativity and find innovative ways to further our technical skills recreationally, we provide this as open source content. This can be seen at our companion leisure site: </Typography>
@@ -22,8 +22,8 @@ function Mysteries() {
                     />
                         <CardContent>
                             <Box>
-                                <Typography variant="h4">Recreation is a click away!</Typography>
-                                <Typography gutterBottom sx={{color:"secondary.dark"}}>You'll find TTRPGs and other sources of recreation</Typography>
+                                <Typography variant="h4">BIT Mysteries</Typography>
+                                <Typography gutterBottom sx={{color:"secondary.dark"}}>Recreation is a click away!</Typography>
                                 <Typography>Have some spare time, or need a bit of time out? Checkout BIT Mysteries, you'll find TTRPGs and other means to pass the time.</Typography>
                             </Box>
                         </CardContent>
