@@ -6,7 +6,7 @@ function Mysteries() {
         <Container>
             <Box sx={{margin:4}}>
                 <Typography variant="h3" sx={{ color: "primary.dark"}}>
-                    Bit Mysteries
+                    BIT Mysteries
                 </Typography>
             </Box>
             <Typography>At BajaInnoTech we strive to foster our creativity and find innovative ways to further our technical skills recreationally, we provide this as open source content. This can be seen at our companion leisure site: </Typography>

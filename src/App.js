@@ -61,7 +61,7 @@ function App() {
                             <Stack spacing={2} direction="row">
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("products")}>Products</Button>
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("blog")}>Blog</Button>
-                                <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("mysteries")}>Bit Mysteries</Button>
+                                <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("mysteries")}>BIT Mysteries</Button>
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("about")}>About Us</Button>
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("contact")}>Contact Us</Button>
                             </Stack>
