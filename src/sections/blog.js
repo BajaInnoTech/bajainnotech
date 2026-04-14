@@ -3,7 +3,6 @@ import CasinoIcon from '@mui/icons-material/Casino';
 import DescriptionIcon from '@mui/icons-material/Description';
 import GitHubIcon from '@mui/icons-material/GitHub';
 // import PeopleIcon from '@mui/icons-material/People';
-import { useTheme } from '@mui/material/styles';
 
 function Blog() {
     return (
@@ -26,6 +25,20 @@ function Blog() {
                             <Typography variant="h6">The Confusing and Frustrating Process of Creating an Online Identity</Typography>
                             <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
                             <Typography>An online presence is a prerequisite for a scalable product rollout. It helps develop exposure, build trust, grow a community and understand the needs of your customers. However, beyond the market research, branding and promos, getting started or even remaining on a platform now requires dealing with bot traffic prevention measures.</Typography>
+                        </Box>
+                    </Box>
+                </CardContent>
+            </Card>
+            <Card variant="outlined" sx={{marginBottom:1}}>
+                <CardContent>
+                    <Box color="primary.dark" component="a" href="https://bitmysteries.itch.io/depthrangers" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <CasinoIcon
+                            sx={{ fontSize:100, mr: 2, width:40, alignSelf:"center", justifyContent:"center" }}
+                        />
+                        <Box>
+                            <Typography variant="h6">Recreation as a means of testing a complete product rollout - DepthRangers RPG System </Typography>
+                            <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
+                            <Typography>We have our first official BajaInnoTech product rollout via our recreation division, BIT Mysteries. It's an RPG System licensed under Creative Commons 4.0 Attribution- ShareAlike License. One of the key goals for this endeavor was to learn about Product Placement, preparing us for our upcoming Visionary Planner rollout. We also deepened our markdown knowledge, testing many edge cases. One of these are the particulars of its HTML & PDF rendering, as well as the limits of GitHub markdown.</Typography>
                         </Box>
                     </Box>
                 </CardContent>
@@ -137,7 +150,7 @@ function Blog() {
                         <Box>
                     <Typography variant="h6">Error boundaries in React… protect your app!</Typography>
                     <Typography gutterBottom sx={{color:"secondary.dark"}}>Hyunjin Oh</Typography>
-                    <Typography>This article mechanims to address web-site wide system crashes.</Typography>
+                    <Typography>This article mechanisms to address web-site wide system crashes.</Typography>
                         </Box>
                     </Box>
                 </CardContent>
