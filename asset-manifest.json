@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/bajainnotech/static/js/main.c96ab0c9.js",
+    "main.js": "/bajainnotech/static/js/main.543f1690.js",
     "static/media/gameBannerShort.png": "/bajainnotech/static/media/gameBannerShort.f2888c630f6b71150143.png",
     "static/media/eduardo.jpeg": "/bajainnotech/static/media/eduardo.a050cc7f2c7bf7acf066.jpeg",
     "static/media/hyunjin.jpeg": "/bajainnotech/static/media/hyunjin.cb2e14617f252f8f5b14.jpeg",
@@ -9,9 +9,9 @@
     "static/media/vpiconv2.svg": "/bajainnotech/static/media/vpiconv2.396a6c276d1cc4a12d9fad8c00d25db0.svg",
     "static/media/favico.svg": "/bajainnotech/static/media/favico.00aef987d548447af080780ae66f80b8.svg",
     "index.html": "/bajainnotech/index.html",
-    "main.c96ab0c9.js.map": "/bajainnotech/static/js/main.c96ab0c9.js.map"
+    "main.543f1690.js.map": "/bajainnotech/static/js/main.543f1690.js.map"
   },
   "entrypoints": [
-    "static/js/main.c96ab0c9.js"
+    "static/js/main.543f1690.js"
   ]
 }
