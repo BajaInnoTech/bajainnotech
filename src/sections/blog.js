@@ -18,6 +18,20 @@ function Blog() {
             <br />
             <Card variant="outlined" sx={{marginBottom:1}}>
                 <CardContent>
+                    <Box color="primary.dark" component="a" href="https://medium.com/bajainnotech/the-confusing-and-frustrating-process-of-creating-an-online-identity-ded4ffd1c365" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
+                        <DescriptionIcon
+                            sx={{ fontSize:100, mr: 2, width:40, alignSelf:"center", justifyContent:"center", }}
+                        />
+                        <Box>
+                            <Typography variant="h6">The Confusing and Frustrating Process of Creating an Online Identity</Typography>
+                            <Typography gutterBottom sx={{color:"secondary.dark"}}>Eduardo del Corral</Typography>
+                            <Typography>An online presence is a prerequisite for a scalable product rollout. It helps develop exposure, build trust, grow a community and understand the needs of your customers. However, beyond the market research, branding and promos, getting started or even remaining on a platform now requires dealing with bot traffic prevention measures.</Typography>
+                        </Box>
+                    </Box>
+                </CardContent>
+            </Card>
+            <Card variant="outlined" sx={{marginBottom:1}}>
+                <CardContent>
                     <Box color="primary.dark" component="a" href="https://medium.com/bajainnotech/a-bit-of-fun-and-a-lot-of-legalese-creative-commons-rpgs-and-gnuv3-3e32628fa454" sx={{ display:"flex", textDecoration: "none" }} target="_blank" rel="noopener noreferrer">
                         <DescriptionIcon
                             sx={{ fontSize:100, mr: 2, width:40, alignSelf:"center", justifyContent:"center", }}
