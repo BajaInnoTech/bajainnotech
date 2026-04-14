@@ -12,7 +12,7 @@ import {
 import Main from './sections/main';
 import Products from './sections/products';
 import About from './sections/about';
-import Mysteries from './sections/mysteries';
+import Mysteries from './sections/activities';
 import Blog from './sections/blog';
 import Contact from './sections/contact';
 import theme from './assets/style/theme';
@@ -61,7 +61,7 @@ function App() {
                             <Stack spacing={2} direction="row">
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("products")}>Products</Button>
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("blog")}>Blog</Button>
-                                <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("mysteries")}>Bit Mysteries</Button>
+                                <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("mysteries")}>Activities</Button>
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("about")}>About Us</Button>
                                 <Button variant="text" sx={{color:'#fff'}} onClick={() => setTarget("contact")}>Contact Us</Button>
                             </Stack>
