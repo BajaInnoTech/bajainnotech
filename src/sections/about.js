@@ -146,7 +146,7 @@ function About() {
                                 </Typography>
                             </Box>
                             <Typography>
-                                A dedicated software analyist with a decade of experience and a close professional and personal acquaintance of Eduardo and Hyunjin for more than half of that time. Victor likes to spend time in music, outdoors and pursuing projects that inspire him.
+                                A dedicated software analyst with a decade of experience and a close professional and personal acquaintance of Eduardo and Hyunjin for more than half of that time. Victor likes to spend time in music, outdoors and pursuing projects that inspire him.
                             </Typography>
                         </CardContent>
                     </Card>
