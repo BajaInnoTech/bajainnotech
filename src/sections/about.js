@@ -128,43 +128,6 @@ function About() {
                             <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                                 <Avatar
                                     sx={{ mr: 2 }}
-                                    alt="victor"
-                                    src={victor}
-                                />
-                                <Typography variant="h6">Victor Carrillo</Typography>
-                                <IconButton
-                                    href="https://www.linkedin.com/in/victor-morales-a959a65b/"
-                                    target="_blank" 
-                                    rel="noopener noreferrer"
-                                    aria-label="LinkedIn"
-                                >
-                                    <LinkedInIcon />
-                                </IconButton>
-                            </Box>
-                            <Box sx={{ pl: 6 }}>
-                                <Typography gutterBottom sx={{color:"secondary.dark"}}>
-                                    COO, QA & Automation Specialist
-                                </Typography>
-                            </Box>
-                            <Typography>
-                                A dedicated software analyst with a decade of experience and a close professional and personal acquaintance of Eduardo and Hyunjin for more than half of that time. Victor likes to spend time in music, outdoors and pursuing projects that inspire him.
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                    <Card
-                        variant="outlined"
-                        sx={{
-                            border: `1px solid ${theme.palette.primary.main}`,
-                            borderRadius: 2,
-                            margin: 1,
-                            flexGrow: 1,
-                            width: { md: '30%', xs: '100%' },
-                        }}
-                    >
-                        <CardContent>
-                            <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                                <Avatar
-                                    sx={{ mr: 2 }}
                                     alt="miriam"
                                     src={miriam}
                                 />
